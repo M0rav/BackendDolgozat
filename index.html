@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="src/main.js"></script>
+</head>
+<body>
+    <H1>Szobor felvétel</H1>
+    <div class="container" >
+
+        <div class="elements">
+            <label for="">Kérlek add meg a szobrod nevét:</label>
+            <input type="text" id="inputName">
+        </div>
+        
+        <div class="elements">
+            <label for="">Kérlek add meg a készítési évet</label>
+            <input type="number" id="inputYear" max="2022" placeholder="2022 a maximum">
+        </div>
+
+        <div class="elements">
+            <label for="">Kérlek add meg az értékét</label>
+            <input type="number" id="inputPrice">Ft
+        </div>
+        
+        <div class="elements">
+            <label for="">Kérlek add meg a magasságát:</label>
+            <input type="number" id="inputHeight" min="10">
+        </div>
+        <div class="elements">
+        <button class="" id="btnFelvetel">Szobor felvétele</button>
+        </div>
+    </div>
+
+    <div class="comtainer" >
+    <ul>
+        <label for="">Összes mű:</label>
+        <li id="listaDb">
+        </li>
+        <label for="">Összes érték:</label>
+        <li id="listaErtek">
+
+        </li>
+    </ul>        
+    </div>
+</body>
+</html>
